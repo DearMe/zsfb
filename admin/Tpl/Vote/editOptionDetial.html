@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+    <meta name="author" content="Coderthemes">
+
+    <link rel="shortcut icon" href="images/favicon_1.ico">
+
+    <title>详细页编辑</title>
+
+
+    <!-- Base Css Files -->
+    <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Icons -->
+    <link href="__PUBLIC__/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="__PUBLIC__/assets/ionicon/css/ionicons.min.css" rel="stylesheet" />
+    <link href="__PUBLIC__/css/material-design-iconic-font.min.css" rel="stylesheet">
+
+    <!-- animate css -->
+    <link href="__PUBLIC__/css/animate.css" rel="stylesheet" />
+
+    <!-- Waves-effect -->
+    <link href="__PUBLIC__/css/waves-effect.css" rel="stylesheet">
+
+    <!--bootstrap-wysihtml5-->
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
+    <link href="__PUBLIC__/assets/summernote/summernote.css" rel="stylesheet" />
+
+    <!-- Custom Files -->
+    <link href="__PUBLIC__/css/helper.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="__PUBLIC__/js/modernizr.min.js"></script>
+
+
+
+
+
+
+
+
+</head>
+
+
+
+<body class="fixed-left">
+
+<!-- Begin page -->
+<div id="wrapper">
+
+    <!-- Top Bar Start -->
+    <include file="Public:top" />
+    <!-- Top Bar End -->
+
+
+    <!-- ========== Left Sidebar Start ========== -->
+    <include file="Public:left" />
+    <!-- Left Sidebar End -->
+
+
+
+    <!-- ============================================================== -->
+    <!-- Start right Content here -->
+    <!-- ============================================================== -->
+    <div class="content-page">
+        <!-- Start content -->
+        <div class="content">
+            <div class="container">
+
+                <!-- Form-validation -->
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">编辑详细页</h3>
+
+                            </div>
+                            <div class="panel-body ">
+
+                                <div style="width: 500px">
+                                    <a href="{:U('Vote/edit',array('id'=>$voteId))}"><button class="btn btn-info waves-effect waves-light m-b-5"> <i class="fa fa-reply"></i> <span>返回</span> </button></a>
+                                    <button id="save_btn" class="btn btn-success waves-effect waves-light m-b-5 pull-right"> <i class="fa fa-save"></i> <span>保存</span> </button>
+                                </div>
+
+
+                                <div class="summernote"> {$option_detail.content} </div>
+
+
+
+
+
+
+
+                            </div> <!-- panel -->
+                        </div> <!-- col -->
+
+                    </div> <!-- End row -->
+
+
+
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+
+            <footer class="footer text-right">
+                2015 © 技术中心.
+            </footer>
+
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Right content here -->
+        <!-- ============================================================== -->
+
+
+
+
+
+    </div>
+
+    <script>
+        var resizefunc = [];
+    </script>
+
+
+
+    <!-- jQuery  -->
+    <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/waves.js"></script>
+    <script src="__PUBLIC__/js/wow.min.js"></script>
+    <script src="__PUBLIC__/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/js/jquery.scrollTo.min.js"></script>
+    <script src="__PUBLIC__/assets/jquery-detectmobile/detect.js"></script>
+    <script src="__PUBLIC__/assets/fastclick/fastclick.js"></script>
+    <script src="__PUBLIC__/assets/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <script src="__PUBLIC__/assets/jquery-blockui/jquery.blockUI.js"></script>
+
+
+    <!-- CUSTOM JS -->
+    <script src="__PUBLIC__/js/jquery.app.js"></script>
+
+
+    <!--form validation init-->
+
+    <script src="__PUBLIC__/assets/summernote/summernote.min.js"></script>
+    <script src="__PUBLIC__/assets/summernote/summernote-zh-CN.js"></script>
+
+    <script>
+
+        jQuery(document).ready(function(){
+
+
+
+
+            $('.summernote').summernote({
+                lang:'zh-CN',
+                height: 900,                 // set editor height
+                width: 500,
+                minHeight: null,             // set minimum height of editor
+                maxHeight: null,             // set maximum height of editor
+                focus: true                 // set focus to editable area after initializing summernote
+            });
+
+
+
+            $('.summernote').code('{$option_detail.content}');
+
+            $(document).on("click","#save_btn",function() {
+                var sHTML = $('.summernote').code();
+                //alert(sHTML+"hahah");
+                $.ajax(
+                {
+                    type: "post",
+                    url: "{:U('Vote/doEditOptionDetial')}",
+                    dataType: "json",
+                    data: {
+                        optionId: {$optionId},
+                        content: sHTML
+                    },
+                    success: function (data) {
+
+                        alert(data);
+
+
+                    },
+                    error: function () {
+                        return 0;
+                    }
+                });
+            });
+
+
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

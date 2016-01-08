@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+
+
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+    <meta name="author" content="Coderthemes">
+
+    <link rel="shortcut icon" href="images/favicon_1.ico">
+
+    <title>{$vote.title}</title>
+
+    <!-- Base Css Files -->
+    <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <!-- Custom Files -->
+    <link href="__PUBLIC__/css/helper.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/assets/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+
+
+    <!-- Font Icons -->
+    <link href="__PUBLIC__/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <script src="__PUBLIC__/js/jquery.min.js"></script>
+
+
+
+</head>
+
+
+
+<body>
+
+<div id="option_detial_modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="full-width-modalLabel" aria-hidden="true" style="display: none;">
+
+</div>
+
+<div id="bodyall">
+<!--投票头部图片-->
+    <if condition="$option.img neq ''">
+        <img src="__ROOT__/vote/Uploads/Picture/{$vote.img}" width="100%"/>
+    </if>
+
+<!--投票说明-->
+<div class="wrapper-page">
+ <div class="row">
+        <div class="panel panel-default panel-border">
+            <div class="panel-heading">
+                <h3 class="panel-title"></h3>
+            </div>
+            <div class="panel-body">
+                {$vote.description}
+                <hr/>
+                <p>开始时间:{$vote.start_time|date="Y-m-d h:m",###}</p>
+                <p>结束时间:{$vote.end_time|date="Y-m-d h:m",###}</p>
+                <p>状　　态:{$stateSon}</p>
+                <p>最多能投{$vote.max_c}票</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+<form action="{:U('ToVote/join')}" method="post" onSubmit="return checkForm();">
+    <input type="hidden" name="vote_id" value="{$vote.id}">
+    <ul class="nav nav-tabs" role="tablist" id="maintab">
+        <if condition="$optionG eq 1">
+            <li class="active" style="display:none" ><a href="#tab{$i}"   onclick='showPage("tab{$i}","__ROOT__/vote/index.php?s=/ToVote/optionPage.html&id={$vote.id}&page={$i}")'>第{$i}组</a></li>
+            <else/>
+            <for start="1" end="$optionG+1">
+                <if condition="$i eq 1">
+                    <li class="active" ><a href="#tab{$i}"   onclick='showPage("tab{$i}","__ROOT__/vote/index.php?s=/ToVote/optionPage.html&id={$vote.id}&page={$i}")'>第{$i}组</a></li>
+                    <else/>
+                    <li><a href="#tab{$i}" onclick='showPage("tab{$i}","__ROOT__/vote/index.php?s=/ToVote/optionPage.html&id={$vote.id}&page={$i}")'>第{$i}组</a></li>
+                </if>
+            </for>
+        </if>
+
+
+
+    </ul>
+
+    <!-- Tab panes -->
+
+
+    <div class="tab-content" style="background-color: #F5F5F5;">
+
+           <for start="1" end="$optionG+1">
+                <div class="tab-pane active" id="tab{$i}"></div>
+            </for>
+
+
+
+
+        <div class="row">
+            <div class="panel panel-fill panel-primary">
+                <div class="panel-body">
+
+                    {$vote.bottominfo}
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="navbar  navbar-fixed-bottom" style="padding: 3px 10%;background-color: #ffffff">
+
+                <button id="submitBtn" type="submit" class="btn btn-block btn-lg btn-default waves-effect waves-light ">确定提交</button>
+
+            </div>
+
+    </div>
+
+
+</form>
+
+
+
+</div>
+
+
+
+
+<script>
+    var resizefunc = [];
+</script>
+
+<!-- jQuery  -->
+
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/waves.js"></script>
+<script src="__PUBLIC__/js/wow.min.js"></script>
+<script src="__PUBLIC__/js/jquery.nicescroll.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/jquery.scrollTo.min.js"></script>
+<script src="__PUBLIC__/assets/chat/moment-2.2.1.js"></script>
+<script src="__PUBLIC__/assets/jquery-sparkline/jquery.sparkline.min.js"></script>
+<script src="__PUBLIC__/assets/jquery-detectmobile/detect.js"></script>
+<script src="__PUBLIC__/assets/fastclick/fastclick.js"></script>
+<script src="__PUBLIC__/assets/jquery-slimscroll/jquery.slimscroll.js"></script>
+<script src="__PUBLIC__/assets/jquery-blockui/jquery.blockUI.js"></script>
+<script src="__PUBLIC__/assets/sweet-alert/sweet-alert.min.js"></script>
+<script src="__PUBLIC__/assets/sweet-alert/sweet-alert.init.js"></script>
+
+
+
+
+    <script language="javascript">
+        //var loadimg="./img/load2.gif"; // 加载时的loading图片
+        showPage("tab1","__ROOT__/vote/index.php?s=/ToVote/optionPage.html&id={$vote.id}&page=1");
+        var max_c = parseInt({$vote.max_c});
+        var state = parseInt({$state});
+
+        function showPage(tabId, url){
+            $('#maintab a[href="#'+tabId+'"]').tab('show'); // 显示点击的tab页面
+            if($('#'+tabId).html().length<20){ // 当tab页面内容小于20个字节时ajax加载新页面
+                $('#'+tabId).html('<br>'+' 页面加载中，请稍后...'); // 设置页面加载时的loading图片
+                $('#'+tabId).load(url); // ajax加载页面
+            }
+        }
+
+        //响应选择票的点击
+        $(document).on("click","#option",function(){
+
+            if(state == 1){
+                var optionId = $(this).attr('opt_id');
+
+                var panel =  $(this).parents('#panel');
+                //alert(pand.attr('id'));
+
+                if(panel.attr("style").length<2){
+                    //校验有没有选择多票
+                    var isCheNo = 0;
+                    $("input[type='checkbox']").each(function(){
+                        if($(this).is(':checked')){
+                            isCheNo++;
+                        }
+                    });
+
+                    if(isCheNo< max_c ){
+                        panel.attr("style","border: 3px solid #1e88e5");
+                        $("#option_"+optionId).prop('checked',true);
+                    }else{
+                        //alert("本次投票只能选择"+max_c+"票");
+                        sweetAlert("本次投票只能选择"+max_c+"票", "请取消已选择的票，再重选");
+                    }
+
+
+
+                }else{
+                    panel.attr("style","");
+                    $("#option_"+optionId).prop('checked',false);
+                }
+
+                var isCheNo=0;
+
+                $("input[type='checkbox']").each(function(){
+                    if($(this).is(':checked')){
+                        isCheNo++;
+                    }
+                });
+
+                if(isCheNo>0){
+                    $('#submitBtn').attr('class','btn btn-block btn-lg btn-primary waves-effect waves-light ');
+                }else{
+                    $('#submitBtn').attr('class','btn btn-block btn-lg btn-default waves-effect waves-light ');
+                }
+
+
+            }
+        });
+
+
+        function checkForm(){
+            if(state==1){
+            $isCheNo = 0;
+            $("input[type='checkbox']").each(function(){
+                if($(this).is(':checked')){
+                    $isCheNo++;
+                }
+            });
+
+
+            if($isCheNo == 0){
+                sweetAlert("你还没有选择","请选择后再提交");
+                return false;
+
+            }
+            if($isCheNo>max_c){
+                sweetAlert("你只能选择"+max_c+"票");
+                return false;
+            }
+
+            return true;
+            }
+
+        }
+
+
+        $("#option_detial_modal").on('hidden.bs.modal', function () {
+            //alert("show");
+           // $("#bodyall").show();
+        })
+
+        $(document).on("click","#option_detial",function(){
+            var optionId = $(this).attr('optionId');
+            var option_detial_modal = $("#option_detial_modal");
+
+            var HTML = "";
+            HTML += '<div class="modal-content">';
+            HTML +='<p>加载中...</p>';
+            HTML += '<div class="modal-content">';
+            option_detial_modal.html(HTML);
+            option_detial_modal.modal('show');
+             /* $("#bodyall").hide();*/
+
+
+
+
+            $.ajax(
+            {
+                type: "post",
+                url: "{:U('ToVote/ajaxOptionDetial')}",
+                dataType: "json",
+                data: {
+                    optionId: optionId
+                },
+                success: function (data) {
+
+                    //alert(data.content);
+
+                    var winHeight = $(window).height()-122;
+                    var HTML = "";
+
+                    HTML += '<div class="modal-content">';
+                    HTML += '<div class="modal-header " style="height: 60px">';
+                    HTML += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>';
+                    HTML += '<h4 class="modal-title" id="full-width-modalLabel">'+data.option_name+'</h4>';
+                    HTML += '</div>';
+                    HTML +='<div class="modal-body" style="height:'+winHeight+'px; overflow:scroll;">';
+
+                    HTML +=data.content;
+
+                    HTML +='</div>';
+
+                    HTML +='<div class="modal-footer" style="height: 60px">';
+                    HTML +='<button type="button" class="btn btn-primary waves-effect" data-dismiss="modal">关闭</button>';
+
+                    HTML +='</div>';
+                    HTML +='</div>';
+
+
+
+                    option_detial_modal.html(HTML);
+
+
+                },
+                error: function () {
+                    return 0;
+                }
+            });
+
+
+
+
+
+
+
+
+
+
+            //sweetAlert("hfdhsahfhshfh<br/>hfdhsahfhshfh<br/>");
+
+
+        });
+
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>

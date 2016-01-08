@@ -1,0 +1,51 @@
+
+<foreach name="optionList" item="option" >
+
+    <div class="row">
+        <div class="col-12">
+            <div class="mini-stat clearfix bx-shadow" id="panel" style="" >
+
+                <h5 class="text-uppercase">{$option.name}</h5>
+
+                <div class="tiles-progress">
+                    <if condition="$option.img neq ''">
+                    <img style="width: 100%" id="option" opt_id="{$option.id}" src="__ROOT__/vote/Uploads/Picture/{$option.img}"/>
+                    </if>
+                </div>
+
+                <div class="tiles-progress">
+                    <div class="m-t-20">
+
+                        <div class="checkbox checkbox-success checkbox-inline"  style="display:none">
+
+                            <input  id="option_{$option.id}" type="checkbox" value="{$option.id}" class="checkbox  form-control"   name="option_{$option.id}" >
+
+                        </div>
+                        <label for="option_{$option.id}">点击图片选择</label>
+
+                        <h5 class="text-uppercase">{$option.opt_count}票 <span class="pull-right">{$option.percent}%</span></h5>
+                        <div class="progress progress-sm m-0">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="{$option.percent}" aria-valuemin="0" aria-valuemax="100" style="width:{$option.percent}%;"></div>
+                        </div>
+                        <if condition="$vote['is_detail'] eq 1">
+                        <div class="m-t-10 text-center">
+                            <div id="option_detial" optionId="{$option.id}" class="btn btn-info waves-effect waves-light m-b-5"> <i class="fa fa-reply"></i> <span>查看详细</span></div>
+                        </div>
+                        </if>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</foreach>
+

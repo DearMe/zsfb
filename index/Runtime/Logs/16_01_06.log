@@ -1,0 +1,6 @@
+[ 2016-01-06T11:40:58+08:00 ] 127.0.0.1 /zsfb/index/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+ERR: 无法加载模块:Index
+

@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'open_id', 2 => 'true_answer_sum', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'open_id' => 'varchar(255)', 'true_answer_sum' => 'int(11)', ), );?>

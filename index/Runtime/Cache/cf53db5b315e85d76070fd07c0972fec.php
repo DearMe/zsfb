@@ -1,0 +1,53 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+    <meta name="author" content="Coderthemes">
+
+    <link rel="shortcut icon" href="images/favicon_1.ico">
+
+    <title>关注</title>
+
+    <!-- Base Css Files -->
+    <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom Files -->
+    <link href="__PUBLIC__/css/helper.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/assets/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+
+    <!-- Font Icons -->
+    <link href="__PUBLIC__/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <script src="__PUBLIC__/js/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="wrapper-page">
+    <div class="row">
+        <div class="panel panel-danger panel-border">
+            <div class="panel-heading">
+                <h3 class="panel-title"></h3>
+            </div>
+            <div class="panel-body">
+                <p class="text-center">请先关注"中山发布"微信号，并使用微信浏览器打开</p>
+
+            </div>
+        </div>
+    </div>
+
+    <img src="__PUBLIC__/images/followEWM.jpg" width="100%">
+
+
+</div>
+
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+
+</body>
+</html>

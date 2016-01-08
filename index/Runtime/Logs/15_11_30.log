@@ -1,0 +1,1760 @@
+[ 2015-11-30T13:05:30+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000216s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000129s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-11-30T13:05:31+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004620s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000219s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-11-30T13:05:32+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004573s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000212s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000135s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-11-30T13:05:32+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000130s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2015-11-30T13:05:32+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000522s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004619s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000219s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-11-30T13:05:32+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004289s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000207s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-11-30T13:05:33+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004282s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000209s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000206s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-11-30T13:06:08+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004288s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2015-11-30T13:07:13+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000496s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004598s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000212s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000206s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-11-30T13:07:14+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004287s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000209s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000216s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-11-30T13:07:14+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004277s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000125s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-11-30T13:08:28+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000512s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004523s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000221s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000130s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-11-30T13:09:04+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004291s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000208s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000124s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2015-11-30T13:09:26+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004301s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000209s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-11-30T13:11:18+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000217s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-11-30T13:12:46+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html&code=0111702210801dc132d950ffa28a2dcC&state=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000279s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005644s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000251s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000220s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000130s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-11-30T13:13:04+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/userInfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2] Missing argument 1 for getUserInfo(), called in /var/www/zsfb/Lib/Action/PlayRedPacketAction.class.php on line 74 and defined /var/www/zsfb/Common/common.php 第 185 行.
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000410s ]
+SQL: INSERT INTO `redpacket_log` (`name`,`phone`,`redpacket_id`,`open_id`,`prize_id`) VALUES ('刘国锋','15889965053',13,'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0',-1) [ RunTime:0.092277s ]
+
+[ 2015-11-30T13:13:05+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000337s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000253s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000220s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2015-11-30T13:14:28+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000359s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000224s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005784s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000239s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000213s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-11-30T13:14:44+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000345s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000257s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000216s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000129s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-11-30T13:15:14+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000412s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005901s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000251s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000223s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000134s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2015-11-30T13:15:17+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-11-30T13:15:17+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000366s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000217s ]
+
+[ 2015-11-30T13:15:23+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000352s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005547s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000211s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-11-30T13:15:34+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-11-30T13:15:47+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-11-30T13:16:38+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000376s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005925s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000252s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000159s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-11-30T13:16:58+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-11-30T13:16:58+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000431s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000218s ]
+
+[ 2015-11-30T13:16:58+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000219s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000130s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-11-30T13:17:55+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000348s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000252s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000214s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000129s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2015-11-30T13:18:15+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-11-30T13:21:27+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-11-30T13:21:29+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-11-30T13:21:32+08:00 ] 180.153.206.24 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-11-30T13:21:32+08:00 ] 180.153.206.24 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000370s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000232s ]
+
+[ 2015-11-30T13:21:32+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-11-30T13:21:32+08:00 ] 180.153.206.24 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000225s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2015-11-30T13:21:55+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-11-30T13:21:58+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-11-30T13:24:43+08:00 ] 101.226.93.233 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000209s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-11-30T13:24:55+08:00 ] 101.226.33.224 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000212s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000217s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2015-11-30T13:25:01+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-11-30T13:25:03+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-11-30T13:25:04+08:00 ] 112.64.235.249 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000393s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000233s ]
+
+[ 2015-11-30T13:25:04+08:00 ] 112.64.235.249 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004533s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000219s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000207s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000130s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-11-30T13:25:06+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-11-30T13:25:45+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-11-30T13:25:45+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000363s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000224s ]
+
+[ 2015-11-30T13:25:59+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000515s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-11-30T13:26:05+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-11-30T13:26:14+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-11-30T13:29:08+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-11-30T13:32:47+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-11-30T13:33:40+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-11-30T13:34:03+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+
+[ 2015-11-30T13:36:03+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Use of undefined constant ROOT - assumed 'ROOT' /var/www/zsfb/Common/common.php 第 133 行.
+
+[ 2015-11-30T13:36:30+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Use of undefined constant _ROOT_ - assumed '_ROOT_' /var/www/zsfb/Common/common.php 第 133 行.
+
+[ 2015-11-30T13:37:21+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-11-30T13:38:50+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-11-30T13:39:28+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-11-30T13:39:29+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html&code=011e37e2be8c1b35be5d3c133670e1eE&state=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000371s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2015-11-30T13:39:29+08:00 ] 113.106.9.222 /zsfb/index.php?s=/Error/WXfollow.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004281s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000209s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000207s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-11-30T13:39:30+08:00 ] 101.226.69.108 /zsfb/index.php?s=/Error/WXfollow.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004580s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000212s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000133s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-11-30T13:39:46+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-11-30T13:39:46+08:00 ] 180.153.201.212 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-11-30T13:39:46+08:00 ] 180.153.201.212 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000372s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000217s ]
+
+[ 2015-11-30T13:39:46+08:00 ] 180.153.201.212 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004332s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000206s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-11-30T13:39:47+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html&code=01132fcf5d6bae2427e0140937f9c36b&state=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000382s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000255s ]
+
+[ 2015-11-30T13:39:47+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/redpacket_id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000337s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000128s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-11-30T13:40:46+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000304s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000222s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005527s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000244s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000210s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000121s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-11-30T13:41:10+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000336s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000203s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005569s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000217s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2015-11-30T13:41:30+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-11-30T13:41:31+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html&code=0215a53fbe2123d945bc758a3a6598fw&state=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000365s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcytw8P37qhWkvVu6XrPHI2aks' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000212s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000122s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-11-30T13:41:54+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/userInfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] Missing argument 1 for getUserInfo(), called in /var/www/zsfb/Lib/Action/PlayRedPacketAction.class.php on line 74 and defined /var/www/zsfb/Common/common.php 第 188 行.
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000407s ]
+SQL: INSERT INTO `redpacket_log` (`name`,`phone`,`redpacket_id`,`open_id`,`prize_id`) VALUES ('哈哈','15889956540',13,'oZgcytw8P37qhWkvVu6XrPHI2aks',-1) [ RunTime:0.062222s ]
+
+[ 2015-11-30T13:41:54+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000335s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcytw8P37qhWkvVu6XrPHI2aks' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000203s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005571s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000236s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-11-30T13:42:06+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000369s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcytw8P37qhWkvVu6XrPHI2aks' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-11-30T13:51:44+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000496s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000359s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005667s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000236s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000217s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-11-30T13:51:58+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/getPrize.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000401s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `redpacket_id` = 13 )  [ RunTime:0.000188s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `redpacket_prize` WHERE ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `redpacket_log` WHERE ( `redpacket_id` = 13 ) AND ( `prize_id` > 0 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `redpacket_log` WHERE ( `redpacket_id` = 13 ) AND ( `prize_id` = 28 ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: UPDATE `redpacket_log` SET `open_id`='oZgcyt-VIvrZEdeAwnyNPVuEQJQ0',`name`='刘国锋',`phone`='15889965053',`prize_id`=28,`redpacket_id`=13 WHERE ( `id` = 61 ) [ RunTime:0.080078s ]
+
+[ 2015-11-30T13:53:08+08:00 ] 101.226.33.237 /zsfb/index.php?s=/Error/WXfollow.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004312s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000124s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-11-30T13:53:22+08:00 ] 180.153.214.182 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-11-30T13:53:22+08:00 ] 180.153.214.182 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000365s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000233s ]
+
+[ 2015-11-30T13:53:22+08:00 ] 180.153.214.182 /zsfb/index.php?s=/Error/errWXBrowser.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004636s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000220s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000124s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2015-11-30T13:55:50+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000345s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000182s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000257s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000132s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-11-30T13:56:41+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000361s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000187s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005571s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000129s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-11-30T13:56:41+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000338s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005812s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000239s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000214s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000135s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-11-30T13:57:33+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000320s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005678s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000252s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-11-30T13:58:08+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000316s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000136s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005874s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000212s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000135s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-11-30T13:58:28+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000337s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005310s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000123s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-11-30T14:04:17+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000354s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005692s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000255s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000132s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-11-30T14:04:31+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000359s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000163s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005903s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000253s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000129s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-11-30T14:05:02+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000351s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcytw8P37qhWkvVu6XrPHI2aks' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005635s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000238s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000129s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-11-30T14:05:07+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000336s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcytw8P37qhWkvVu6XrPHI2aks' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005583s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000237s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-11-30T14:17:50+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000350s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000185s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000259s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000134s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-11-30T14:19:21+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000352s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000166s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005878s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000254s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000137s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-11-30T14:19:28+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000315s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005700s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000216s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-11-30T14:25:11+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000340s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005604s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2015-11-30T14:25:23+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `redpacket_prize` [ RunTime:0.000349s ]
+SQL: SELECT * FROM `redpacket_log` WHERE ( `open_id` = 'oZgcyt-VIvrZEdeAwnyNPVuEQJQ0' ) AND ( `redpacket_id` = 13 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT * FROM `redpacket_prize` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005707s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000255s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000131s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-11-30T16:45:31+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+
+[ 2015-11-30T16:45:31+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000362s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2015-11-30T16:45:31+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/err.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000496s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-11-30T16:45:35+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-11-30T16:45:35+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000394s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2015-11-30T16:45:36+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/err.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-11-30T16:45:41+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-11-30T16:45:47+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.000187s ]
+
+[ 2015-11-30T16:45:47+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/err.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-11-30T16:45:53+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/play/id/13.html&from=singlemessage&isappinstalled=0
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-11-30T16:45:53+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/index/id/13.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `redpacket` [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `redpacket_log` [ RunTime:0.000343s ]
+SQL: SELECT * FROM `redpacket` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000268s ]
+
+[ 2015-11-30T16:45:53+08:00 ] 113.106.9.222 /zsfb/index.php?s=/PlayRedPacket/err.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
