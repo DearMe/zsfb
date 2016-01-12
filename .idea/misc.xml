@@ -48,6 +48,16 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/admin/Runtime/Cache/0361b3b950f846907671eb8b82a35737.php" />
+    <file url="file://$PROJECT_DIR$/admin/Runtime/Cache/44f18643aca8ca415efe9904c20cb637.php" />
+    <file url="file://$PROJECT_DIR$/admin/Runtime/Cache/671ff6d070f8d367f16940b9915e3a13.php" />
+    <file url="file://$PROJECT_DIR$/admin/Runtime/Cache/82ded4b4cf2b80366a4e53e5aca57fb3.php" />
+    <file url="file://$PROJECT_DIR$/admin/Runtime/Cache/99af8a6875a73e38e69ba77726e8dd1d.php" />
+    <file url="file://$PROJECT_DIR$/admin/Runtime/Cache/a681bfb7d30e33e5296a6b73ddaf46d1.php" />
+    <file url="file://$PROJECT_DIR$/admin/Runtime/Cache/b0592b4787e0f1b53417f2234c3fb827.php" />
+    <file url="file://$PROJECT_DIR$/admin/Runtime/Cache/f12c0a77906a0f355c95666536d66c0f.php" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" assert-keyword="false" jdk-15="false">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

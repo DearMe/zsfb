@@ -16,8 +16,9 @@ class AutoResponseAction extends Action {
         $data['title'] = I('post.title');
         $data['description'] = I('post.description');
         $data['music_url'] = I('post.music_url');
-        $data['pic_url'] = I('post.pic_url');
-        $data['text_url'] = I('post.pic_url');
+        $data['pic_url'] = I('post.picUrl');
+        $data['text_url'] = I('post.url');
+        $data['status'] = I('post.status');
         return $data;
     }
 
@@ -26,20 +27,26 @@ class AutoResponseAction extends Action {
     }
 
     public function add(){
-        $data['key'] = I('post.key');
-        $data['type'] = I('post.type');
-        $data['text'] = I('post.text');
-        $autoResponseDB= M('auto_response');
-        $data_id = $autoResponseDB->data($data)->add();
-        $this->tableAJAX();
+        $data = $this->readFromIndexByPost();
+        $autoResponseDB = M('auto_response');
+        $autoResponseDB->data($data)->add();
+        $this->redirect("AutoResponse/index");
     }
 
     public function delete(){
         $id = I('get.id');
-        $autoResponseDB= M('auto_response');
+        $autoResponseDB = M('auto_response');
         $autoResponseDB->where(array('id'=>$id))->delete();
+        $this->redirect("AutoResponse/index");
+    }
 
-        $this->redirect("");
+    public function changeStatus(){
+        $id = I('get.id');
+        $autoResponseDB = M('auto_response');
+        $item = $autoResponseDB->where(array('id'=>$id))->find();
+        $item['status'] = ($item['status'] == 1) ? 0 : 1;
+        $autoResponseDB->save($item);
+        $this->redirect("AutoResponse/index");
     }
 
     public function tableAJAX(){
@@ -65,9 +72,19 @@ class AutoResponseAction extends Action {
         }
         $information = array();
         foreach ($list as $item) {
-            $doButton = '<button name="del" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-danger m-b-5"> <i class="fa fa-remove"></i><span> 删除 </span></button> ';
-            $doButton.= '<button name="edit" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-warning m-b-5"> <i class="fa fa-edit"></i><span> 编辑 </span></button> ';
-            $data = array($item['id'], $item['key'], $doButton);
+            if($item[status] == 1) {
+                $status = "有效";
+                $doButton = '<button name="del" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-danger m-b-5"> <i class="fa fa-remove"></i><span> 删除 </span></button> ';
+                $doButton.= '<button name="edit" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-primary m-b-5"> <i class="fa fa-edit"></i><span> 编辑 </span></button> ';
+                $doButton.= '<button name="changeStatus" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-warning m-b-5"> <i class="fa fa-edit"></i><span> 取消启用</span></button> ';
+            }
+            else {
+                $status = "无效";
+                $doButton = '<button name="del" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-danger m-b-5"> <i class="fa fa-remove"></i><span> 删除 </span></button> ';
+                $doButton.= '<button name="edit" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-primary m-b-5"> <i class="fa fa-edit"></i><span> 编辑 </span></button> ';
+                $doButton.= '<button name="changeStatus" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-success m-b-5"> <i class="fa fa-edit"></i><span> 启用</span></button> ';
+            }
+            $data = array($item['id'], $item['key'], $item['type'], $status, $doButton);
             array_push($information, $data);
         }
         $jsonData = array(
@@ -81,17 +98,19 @@ class AutoResponseAction extends Action {
 
     }
 
-    public function edit(){
+    public function getItem(){
         $id = I('get.id');
         $autoResponseDB= M('auto_response');
-        $autoResponse = $autoResponseDB->where('id='.$id)->find();
-
+        $item = $autoResponseDB->where('id='.$id)->find();
+        echo json_encode($item);
+        exit;
     }
 
-    public function doEdit()
+    public function edit()
     {
         $data = $this->readFromIndexByPost();
         $autoResponseDB= M('auto_response');
-        $autoResponseDB->data($data)->save();
+        $autoResponseDB->save($data);
+        $this->redirect("AutoResponse/index");
     }
 }

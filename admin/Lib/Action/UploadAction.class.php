@@ -50,8 +50,8 @@ class UploadAction extends Action{
 
 
 
-                $savePath = '../index/vote/Uploads/Picture/'.$date;
-                $savePathName = '../index/vote/Uploads/Picture/'.$info[0]['savename'];
+                $savePath = '../index/Uploads/Picture/'.$date;
+                $savePathName = '../index/Uploads/Picture/'.$info[0]['savename'];
                 $inPathName = './Uploads/Picture/'.$info[0]['savename'];
 
                 if(!is_dir($savePath)){

@@ -18,7 +18,10 @@ class GetRevAction extends Action {
 
         $type = $this->weObj->getRev()->getRevType();
 
+        if($type == Wechat::MSGTYPE_TEXT){
+            $content = $this->weObj->getRevContent();
 
+        }
 
         switch($type) {
 
