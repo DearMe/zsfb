@@ -385,7 +385,7 @@
                                                         </div>
                                                         <div class="modal-body">
                                                             <div class=" form">
-                                                                <form method="post" action="<?php echo U('AutoResponse/add');?>" onSubmit="return checkForm('news');">
+                                                                <form method="post" action="<?php echo U('AutoResponse/add');?>" onSubmit="return checkForm('add_news');">
 
                                                                     <div class="row">
                                                                         <div class="col-md-6">
@@ -511,7 +511,7 @@
                                                         </div>
                                                         <div class="modal-body">
                                                             <div class=" form">
-                                                                <form method="post" action="<?php echo U('AutoResponse/edit');?>" onSubmit="return checkForm('news');">
+                                                                <form method="post" action="<?php echo U('AutoResponse/edit');?>" onSubmit="return checkForm('edit_news');">
 
                                                                     <div class="row">
                                                                         <div class="col-md-6">
@@ -791,14 +791,16 @@
                 return false;
             }
             if ($("#" + type + "_msg_type").val() == null || $("#" + type + "_msg_type").val() == "") {
-                sweetAlert({title: "请选择MSG_TYPE", timer: 1000, showConfirmButton: false});
+                sweetAlert({title: "请选择MSGTYPE", timer: 1000, showConfirmButton: false});
                 return false;
             }
             if ($("#" + type + "_msg_type").val() == 'event'){
                 if ($("#" + type + "_sub_msg_type").val() == null || $("#" + type + "_sub_msg_type").val() == "") {
-                    sweetAlert({title: "请选择SUB_MSG_TYPE", timer: 1000, showConfirmButton: false});
+                    sweetAlert({title: "请选择SUB_MSGTYPE", timer: 1000, showConfirmButton: false});
                     return false;
                 }
+            }else{
+                $("#" + type + "_sub_msg_type").val("");
             }
             return true;
         }else if(type == 'add_news' || type == 'edit_news'){
@@ -819,14 +821,16 @@
                 return false;
             }
             if ($("#" + type + "_msg_type").val() == null || $("#" + type + "_msg_type").val() == "") {
-                sweetAlert({title: "请选择MSG_TYPE", timer: 1000, showConfirmButton: false});
+                sweetAlert({title: "请选择MSGTYPE", timer: 1000, showConfirmButton: false});
                 return false;
             }
             if ($("#" + type + "_msg_type").val() == 'event'){
                 if ($("#" + type + "_sub_msg_type").val() == null || $("#" + type + "_sub_msg_type").val() == "") {
-                    sweetAlert({title: "请选择SUB_MSG_TYPE", timer: 1000, showConfirmButton: false});
+                    sweetAlert({title: "请选择SUB_MSGTYPE", timer: 1000, showConfirmButton: false});
                     return false;
                 }
+            }else{
+                $("#" + type + "_sub_msg_type").val("");
             }
             if ($("#" + type + "_picUrl").val() == null || $("#" + type + "_picUrl").val() == "") {
                 sweetAlert({title: "请上传图片", timer: 1000, showConfirmButton: false});

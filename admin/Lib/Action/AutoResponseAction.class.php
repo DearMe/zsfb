@@ -19,6 +19,8 @@ class AutoResponseAction extends Action {
         $data['pic_url'] = I('post.picUrl');
         $data['text_url'] = I('post.url');
         $data['status'] = I('post.status');
+        $data['msg_type'] = I('post.msg_type');
+        $data['sub_msg_type'] = I('post.sub_msg_type');
         return $data;
     }
 

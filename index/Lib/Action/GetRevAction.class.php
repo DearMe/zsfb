@@ -5,45 +5,60 @@
  * Date: 2015/12/11
  * Time: 15:17
  */
-import('ORG.wechat');
 class GetRevAction extends Action {
     private $weObj;
 
+    private function sendMSG($item){
+        $weObj = getWeObj();
+        $weObj->valid();
+        if($item['type'] == 'text'){
+            $weObj->text($item['text'])->reply();
+        }else if($item['type'] == 'image'){
+            $weObj->image($item['media_id'])->reply();
+        }else if($item['type'] == 'voice'){
+            $weObj->voice($item['media_id'])->reply();
+        }else if($item['type'] == 'video'){
+            $weObj->video($item['media_id'], $item['title'], $item['description'])->reply();
+        }else if($item['type'] == 'music'){
+            //
+        }else if($item['type'] == 'news'){
+            $data = array(
+                "0" => array(
+                    'Title' => $item['title'],
+                    'Description' => $item['description'],
+                    'PicUrl' => 'http://zsfbwx.zsbtv.com.cn/zsfb/admin/Uploads/Picture/' + $item['pic_url'],
+                    'Url' => $item['text_url'],
+                ),
+            );
+            $weObj->news($data)->reply();
+        }
+    }
+
     public function index(){
+        $weObj = getWeObj();
+        $weObj->valid();
+        $type = $weObj->getRev()->getRevType();
 
-
-
-        $this->weObj = getWeObj();
-        $this->weObj->valid();
-
-        $type = $this->weObj->getRev()->getRevType();
+        $autoResponseDB = M('auto_response');
 
         if($type == Wechat::MSGTYPE_TEXT){
-            $content = $this->weObj->getRevContent();
-
+            $content = $weObj->getRevContent();
+            $item = $autoResponseDB->where(array('key' => $content, 'status' => 1))->find();
+            $this->sendMSG($item);
+        }else if($type == Wechat::MSGTYPE_IMAGE){
+        }else if($type == Wechat::MSGTYPE_LOCATION){
+        }else if($type == Wechat::MSGTYPE_LINK){
+        }else if($type == Wechat::MSGTYPE_EVENT){
+            $event_type = $weObj->getRevContent();
+            $item = $autoResponseDB->where(array('key' => $event_type['key'], 'status' => 1, 'msg_type' => 'event', 'sub_msg_type' => $event_type['event']))->find();
+            $this->sendMSG($item);
+        }else if($type == Wechat::MSGTYPE_MUSIC){
+        }else if($type == Wechat::MSGTYPE_NEWS){
+        }else if($type == Wechat::MSGTYPE_VOICE){
+        }else if($type == Wechat::MSGTYPE_VIDEO){
         }
-
+/*
         switch($type) {
-
-            case Wechat::MSGTYPE_TEXT:
-                $content = $this->weObj->getRevContent();
-                if($content == "我要抢流量"){
-                    $data=array(
-                        "0"=>array(
-                            'Title'=>'冬至送温暖 点点有流量',
-                            'Description'=>'点击进入门票抽奖页面',
-                            'PicUrl'=>'http://zsfbwx.zsbtv.com.cn/zsfb/Tpl/Public/images/ll.jpg',
-                            'Url'=>'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx35a55b1c419603dc&redirect_uri=http://zsfbwx.zsbtv.com.cn/zsfb/index.php?s=/PlayRedPacket/index/id/19.html&response_type=code&scope=snsapi_base&connect_redirect=1&from=singlemessage&isappinstalled=0#wechat_redirect',
-                        ),
-
-                    );
-                    $this->weObj->news($data)->reply();
-                }
-                break;
-
-
-
-
 
             case Wechat::MSGTYPE_EVENT://事件推送
 
@@ -51,7 +66,6 @@ class GetRevAction extends Action {
 
                // Log::write('myinfo:'.$type, Log::DEBUG);
                // Log::write('myinfo:'.$event_type, Log::DEBUG);
-
                 switch($event_type['event']){
                     case Wechat::EVENT_SUBSCRIBE:
 
@@ -93,7 +107,7 @@ class GetRevAction extends Action {
             default:
                 break;
        }
-
+*/
         exit;
 
 
