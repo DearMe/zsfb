@@ -20,13 +20,11 @@ return array(
     //URL的模式
     'URL_MODEL'=>3,
 
-    'DATA_CACHE_PATH'=>'../Cache/',
+    'DATA_CACHE_PATH'=>'../public/Cache/',
+
 
     //引入微信的设置
-    'LOAD_EXT_CONFIG' => '../../Conf/wxConfig',
-
-
-
+    'LOAD_EXT_CONFIG' => '../../public/Conf/wxConfig',
 
 );
 ?>

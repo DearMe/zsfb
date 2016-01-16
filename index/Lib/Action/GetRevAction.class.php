@@ -6,7 +6,6 @@
  * Time: 15:17
  */
 class GetRevAction extends Action {
-    private $weObj;
 
     private function sendMSG($item){
         $weObj = getWeObj();
@@ -26,7 +25,7 @@ class GetRevAction extends Action {
                 "0" => array(
                     'Title' => $item['title'],
                     'Description' => $item['description'],
-                    'PicUrl' => 'http://zsfbwx.zsbtv.com.cn/zsfb/admin/Uploads/Picture/' + $item['pic_url'],
+                    'PicUrl' => 'http://'.$_SERVER['SERVER_NAME'].'/Uploads/Picture/'.$item['pic_url'],
                     'Url' => $item['text_url'],
                 ),
             );
@@ -34,24 +33,31 @@ class GetRevAction extends Action {
         }
     }
 
+
     public function index(){
         $weObj = getWeObj();
-        $weObj->valid();
+        //$weObj->valid();
         $type = $weObj->getRev()->getRevType();
 
         $autoResponseDB = M('auto_response');
 
         if($type == Wechat::MSGTYPE_TEXT){
             $content = $weObj->getRevContent();
-            $item = $autoResponseDB->where(array('key' => $content, 'status' => 1))->find();
-            $this->sendMSG($item);
+            $itemList = $autoResponseDB->where(array('key' => $content, 'status' => 1))->select();
+            foreach($itemList as $item) {
+                $this->sendMSG($item);
+            }
         }else if($type == Wechat::MSGTYPE_IMAGE){
         }else if($type == Wechat::MSGTYPE_LOCATION){
         }else if($type == Wechat::MSGTYPE_LINK){
         }else if($type == Wechat::MSGTYPE_EVENT){
-            $event_type = $weObj->getRevContent();
-            $item = $autoResponseDB->where(array('key' => $event_type['key'], 'status' => 1, 'msg_type' => 'event', 'sub_msg_type' => $event_type['event']))->find();
-            $this->sendMSG($item);
+            $event_type = $weObj->getRevEvent();
+            if($event_type['event'] == Wechat::EVENT_SUBSCRIBE){
+                $itemList = $autoResponseDB->where(array('status' => 1, 'msg_type' => 'event', 'sub_msg_type' => $event_type['event']))->select();
+                foreach($itemList as $item_event) {
+                    $this->sendMSG($item_event);
+                }
+            }
         }else if($type == Wechat::MSGTYPE_MUSIC){
         }else if($type == Wechat::MSGTYPE_NEWS){
         }else if($type == Wechat::MSGTYPE_VOICE){

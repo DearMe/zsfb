@@ -74,7 +74,7 @@ class AutoResponseAction extends Action {
         }
         $information = array();
         foreach ($list as $item) {
-            if($item[status] == 1) {
+            if($item['status'] == 1) {
                 $status = "有效";
                 $doButton = '<button name="del" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-danger m-b-5"> <i class="fa fa-remove"></i><span> 删除 </span></button> ';
                 $doButton.= '<button name="edit" id="'.$item['id'].'" class="btn btn-icon waves-effect waves-light btn-primary m-b-5"> <i class="fa fa-edit"></i><span> 编辑 </span></button> ';
