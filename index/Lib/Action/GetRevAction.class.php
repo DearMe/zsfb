@@ -6,18 +6,18 @@
  * Time: 15:17
  */
 class GetRevAction extends Action {
-
+    private  $weObj;
     private function sendMSG($item){
-        $weObj = getWeObj();
-        $weObj->valid();
+        $this->weObj = getWeObj();
+        $this->weObj->valid();
         if($item['type'] == 'text'){
-            $weObj->text($item['text'])->reply();
+            $this->weObj->text($item['text'])->reply();
         }else if($item['type'] == 'image'){
-            $weObj->image($item['media_id'])->reply();
+            $this->weObj->image($item['media_id'])->reply();
         }else if($item['type'] == 'voice'){
-            $weObj->voice($item['media_id'])->reply();
+            $this->weObj->voice($item['media_id'])->reply();
         }else if($item['type'] == 'video'){
-            $weObj->video($item['media_id'], $item['title'], $item['description'])->reply();
+            $this->weObj->video($item['media_id'], $item['title'], $item['description'])->reply();
         }else if($item['type'] == 'music'){
             //
         }else if($item['type'] == 'news'){
@@ -29,20 +29,20 @@ class GetRevAction extends Action {
                     'Url' => $item['text_url'],
                 ),
             );
-            $weObj->news($data)->reply();
+            $this->weObj->news($data)->reply();
         }
     }
 
 
     public function index(){
-        $weObj = getWeObj();
-        //$weObj->valid();
-        $type = $weObj->getRev()->getRevType();
+        $this->weObj = getWeObj();
+        $this->weObj->valid();
+        $type = $this->weObj->getRev()->getRevType();
 
         $autoResponseDB = M('auto_response');
 
         if($type == Wechat::MSGTYPE_TEXT){
-            $content = $weObj->getRevContent();
+            $content = $this->weObj->getRevContent();
             $itemList = $autoResponseDB->where(array('key' => $content, 'status' => 1))->select();
             foreach($itemList as $item) {
                 $this->sendMSG($item);
@@ -51,7 +51,7 @@ class GetRevAction extends Action {
         }else if($type == Wechat::MSGTYPE_LOCATION){
         }else if($type == Wechat::MSGTYPE_LINK){
         }else if($type == Wechat::MSGTYPE_EVENT){
-            $event_type = $weObj->getRevEvent();
+            $event_type = $this->weObj->getRevEvent();
             if($event_type['event'] == Wechat::EVENT_SUBSCRIBE){
                 $itemList = $autoResponseDB->where(array('status' => 1, 'msg_type' => 'event', 'sub_msg_type' => $event_type['event']))->select();
                 foreach($itemList as $item_event) {
